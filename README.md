@@ -1,3 +1,3 @@
 # Portfolio
 
-My most up-to-date portfolio page.
+My most up to date portfolio page.
