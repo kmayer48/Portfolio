@@ -67,6 +67,12 @@ img {
     transition: all 0.3s;
 }
 
+#profile {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
 
 /* texts */
 
@@ -76,7 +82,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-weight: 500;
     color: #333;
     letter-spacing: 1px;
@@ -872,7 +877,6 @@ h2.menu-item:after {
 
 .block-title {
     font-size: 24px;
-    text-transform: uppercase;
     color: #333;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
@@ -952,11 +956,9 @@ h2.menu-item:after {
 
 .name-block-container h1,
 .name-block-container h2 {
-    text-transform: capitalize;
     font-weight: 700;
     color: #FFF;
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 
 .dark .name-block-container h1,
@@ -1065,9 +1067,7 @@ h2.menu-item:after {
 
 .info-list {
     border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
     padding-bottom: 20px;
-    padding-top: 20px;
     margin: 20px 0;
     overflow: auto;
 }
@@ -1422,6 +1422,15 @@ h4.package {
 }
 
 /* Portfolio */
+
+.git {
+    color: #1589FF;
+    font-size: 35px;
+}
+
+.git:hover {
+    color: #52D017
+}
 
 .portfolio-container {
     overflow: hidden;
